@@ -1,0 +1,105 @@
+body {
+    color: #414141; /*There's a slider in vsc for the colors!*/
+    background-color: #EEEEEE;    /* Light gray */  
+    font-size: 18px;
+}
+
+h1, p {
+    background-color: #DDE0E3;    /* Light gray */
+}
+
+
+em {
+    background-color: #c4daf2;
+    display: inline;
+}
+strong {
+    background-color: #f2c4ed;
+    display: inline;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+  
+
+ul {
+  list-style-type: square;
+}
+  
+ol {
+  list-style-type: lower-roman;
+}
+
+a {
+  text-decoration: aqua;
+}
+
+p {
+    border: 1px solid #415e3f;
+    text-align: left;
+    padding: 15px 10px 15px 10px;
+    margin-top: 20px;
+    margin-bottom: 3px;          /* Add this */
+}
+
+div {
+    color: #f2c4ed;
+    background-color: #66295f;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #2e0729;
+    border-radius: 5px;
+    width: 200px;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+/*  width: 120px;*/
+  overflow: hidden;
+  background-color: #c4daf2;
+  /*border: 2px solid #2e0729;
+  */
+}
+
+.ele {
+	/*
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align:center;
+  border-bottom: 1px solid #2e0729;
+  display: inline;
+  */
+  float: left;
+}
+
+.ele a {
+	display: block;
+	background-color: #f2c4ed;
+	color: #541b7d;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-left: 3px solid #2e0729;
+}
+
+.ele:last-child {
+        border-right: 3px solid #2e0729;
+}
+
+.ele a:hover {
+  background-color: #555;
+  color: aqua;
+}
+
