@@ -36,7 +36,7 @@ ol {
 }
 
 a {
-  text-decoration: aqua;
+  text-decoration: none;
 }
 
 p {
@@ -99,7 +99,7 @@ div {
 }
 
 .ele a:hover {
-  background-color: #555;
-  color: aqua;
+  background-color: #874c80;
+  color: #ffd2fa;
 }
 
