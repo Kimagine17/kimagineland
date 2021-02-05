@@ -59,7 +59,7 @@
    /* Mobile Styles */
    @media only screen and (max-width: 400px) {
     body {
-      background-color: #F09A9D; /* Red */
+      background-color: white; /* Red */
     }
   }
   
