@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    color: #114411; /*There's a slider in vsc for the colors!*/
+    background-color: #a0cca0;    /* Light gray */
+    font-size: 18px;
+}
+.menu-container {
+    color: #fff;
+    background-color: #2dac2d;  /* Blue */
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: #0c330c;
+    size: 1em;
+
+}
+a:hover {
+    color: #5b1a74;
+}
+.menu {
+    border: 1px solid #0c330c;
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+}  
+.page {
+    width: 85%;
+    height: 100%;
+    /* color: #f1f1f1f1; */
+    background-color: #a0cca0;
+    /*font-weight: bold;
+    text-align: left;*/
+    font-family: Palatino, URW Palladio L, serif;
+    /* box-sizing: border-box; */
+    margin: auto;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: #0c330c;
+    padding: 30px;
+    /* padding-top: 50px; */
+    background: #2dac2d;
+    text-align: center;
+}
+
+h2, h3{
+    padding: 40px 10px 15px;
+    text-align: center;
+}
+p {
+    padding: 15px 30px 0px 30px;
+    line-height: 1.75em;
+}
+.photos {
+    position: relative;
+
+}
+.list {
+    padding: 35px 30px 0px 30px;
+}
+ul {
+    list-style-type: square;
+    margin: 0px 100px;
+    line-height: 1.75em;
+
+}
+.item {
+    border: 10px solid #185f18;
+    margin: 10px;
+    border-radius: 20px;
+    /* width: 80%; */
+}
+
+
